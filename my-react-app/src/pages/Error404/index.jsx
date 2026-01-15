@@ -5,7 +5,8 @@ const Error404 = () => {
   return (
     <div>
       <h1>Error 404</h1>
-      <Link to="/">Home</Link>
+      <p>Oups! La page que vous demandez n'existe pas</p>
+      <Link to="/">Retourner sur la page d'acceuil</Link>
     </div>
   )
 }

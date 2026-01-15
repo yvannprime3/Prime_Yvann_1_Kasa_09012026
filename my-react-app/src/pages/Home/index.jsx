@@ -4,7 +4,8 @@ function Home() {
 
   return (
     <>
-     <h1>Hello world</h1>
+      <h1>Chez nous, partout et ailleurs</h1>
+
     </>
   )
 }
