@@ -6,6 +6,7 @@ import About from './pages/About'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Error404 from './pages/Error404'
 import Header from './components/Header'
+import Logements from './pages/Logements'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,7 +16,8 @@ createRoot(document.getElementById('root')).render(
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<Error404 />} />
+          <Route path="/logements" element={<Logements />} />
         </Routes>
     </Router>
-  </StrictMode>,
+  </StrictMode>
 )
