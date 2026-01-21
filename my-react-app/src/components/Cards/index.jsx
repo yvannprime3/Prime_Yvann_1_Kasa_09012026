@@ -1,10 +1,12 @@
 import React from 'react'
+import styles from "./Cards.module.scss"
 
-const Cards = () => {
+const Cards = ({logement}) => {
   return (
-    <div>
-      
-    </div>
+    <article className={styles.card}>
+      <img src={logement.cover} alt={logement.title} />
+      <h2>{logement.title}</h2>
+    </article>
   )
 }
 

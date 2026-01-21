@@ -1,12 +1,11 @@
 import React from 'react'
-import Title from '../../components/Title'
+import Banner from "../../components/Banner"
 import banner2 from "../../assets/banner2.png"
 
 const About = () => {
   return (
     <div>
-      <h1>About</h1>
-      <Title imageURL={banner2} />
+      <Banner imageURL={banner2} />
     </div>
   )
 }

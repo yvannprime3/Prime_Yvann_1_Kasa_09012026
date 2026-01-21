@@ -1,13 +1,13 @@
 import React from 'react'
-import styles from "./Title.module.scss"
+import styles from "./Banner.module.scss"
 
-const Title = ({title, imageURL}) => {
+const Banner = ({banner, imageURL}) => {
   return (
     <div>
       <img className={styles.imgTitle} src={imageURL} alt="chez nous image" />
-      {title}
+      {banner}
     </div>
   )
 }
 
-export default Title
+export default Banner

@@ -1,0 +1,15 @@
+.header {
+    max-width: 1240px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    text-decoration: underline;
+}
