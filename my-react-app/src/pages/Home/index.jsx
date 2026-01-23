@@ -7,8 +7,7 @@ function Home() {
 
   return (
     <>
-      <Banner imageURL={banner1} />
-      <h1 class="bannerTitle">Chez nous, partout et ailleurs</h1>
+      <Banner imageURL={banner1} banner="Chez nous, partout et ailleurs" />
       <Gallery />
     </>
   )

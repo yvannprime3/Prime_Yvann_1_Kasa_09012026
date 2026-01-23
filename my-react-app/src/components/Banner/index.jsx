@@ -3,9 +3,9 @@ import styles from "./Banner.module.scss"
 
 const Banner = ({banner, imageURL}) => {
   return (
-    <div>
+    <div className={styles.container}>
       <img className={styles.imgTitle} src={imageURL} alt="chez nous image" />
-      {banner}
+      <h1>{banner}</h1>
     </div>
   )
 }
