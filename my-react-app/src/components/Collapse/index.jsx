@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from "react"
 import styles from "./Collapse.module.scss"
 
-const Collapse = (title, content) => {
+const Collapse = ({title, content}) => {
     const [open, setOpen] = useState(false)
   return (
     <div className={styles.collapse}>
