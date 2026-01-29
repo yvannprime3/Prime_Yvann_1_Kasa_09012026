@@ -16,7 +16,7 @@ const Logements = () => {
 
   return (
     <main className={styles.logements}>
-        <Carousel pictures={logement.pictures} />
+        <Slideshow pictures={logement.pictures} />
 
         <div className={styles.logements__top}>
           <div className={styles.logements__info}>
