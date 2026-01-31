@@ -18,8 +18,8 @@ createRoot(document.getElementById("root")).render(
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/about" element={<About />} />
+					<Route path="/logements/:id" element={<Logements />} />
 					<Route path="*" element={<Error404 />} />
-					<Route path="/logements" element={<Logements />} />
 				</Routes>
 			</Router>
 		</div>
