@@ -8,3 +8,14 @@
     margin-top: 40px;
   }
 }
+
+@media (max-width: 768px) {
+
+  .about {
+    padding : 0 20px;
+  }
+
+    .about img {
+      height: 111px;
+  }
+}

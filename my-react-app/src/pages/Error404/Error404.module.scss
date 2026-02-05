@@ -27,3 +27,14 @@ $error-color: #ff6060;
     cursor: pointer;
   }
 }
+
+@media (max-width: 768px) {
+    h1 {
+      font-size: 96px;
+    }
+
+    p {
+      font-size: 18px;
+      padding: 0 20px;
+  }
+}

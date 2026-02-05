@@ -11,3 +11,9 @@
     fill: #ff6060;
   }
 }
+
+@media (max-width: 768px) {
+  .rating img {
+    width: 15px;
+  }
+}
