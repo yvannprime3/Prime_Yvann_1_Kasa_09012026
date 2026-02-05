@@ -37,3 +37,21 @@
 		z-index: 1;
 	}
 }
+
+@media (max-width: 768px) {
+
+  .banner {
+    height: 111px;
+    border-radius: 10px;
+    margin: 20px 0;
+
+    h1 {
+      font-size: 24px;
+      padding: 0 16px;
+      justify-content: flex-start;
+      text-align: left;
+	  align-items: center;
+	  width: 70%;
+    }
+  }
+}
